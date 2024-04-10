@@ -1,0 +1,73 @@
+.cabeca {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.carrossel-fora {
+    display: flex;
+    height: 25px;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+}
+.carrossel-dentro {
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+}
+.centrtxt{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 20px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: 20px;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: 20px;
+  }
+
+  .footesq {
+    border-left: -200px;
+  }
+
+  .imgtxt {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .imgtxt figcaption {
+    position: absolute;
+    top: 50px;
+    right: 75px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+  }
+.padlateral{
+    padding-left: 120px;
+    padding-right: 120px;
+}

@@ -1,14 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap demo</title>
+  <title>Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+  <header class="cabeca">
+    <div style="justify-content: right;" class="container d-flex flex-wrap">
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">BAIXE O APP</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">SUA LOCALIZAÇÃO</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">NOSSAS LOJAS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">CARTÃO PRESENTE</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FAVORITOS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">ATENDIMENTO</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">MINHA CONTA</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">CARRINHO</a></li>
+      </ul>
+    </div>
+  <div class="container d-flex flex-wrap justify-content-center">
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <img style="width: 137px; height: 61px;" src="/images/logo.svg" alt="">
+    </a>
+    <ul class="nav">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">NOVIDADES</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">MASCULINO</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FEMININO</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">INFANTIL</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">SKATEBOARDING</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">MAIS</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">SALE</a></li>
+    </ul>
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+      <input type="search" class="form-control" placeholder="Buscar por..." aria-label="Search">
+    </form>
+  </div>
+</header>
+
 <body>
+  <div class="carrossel-fora">
+    <div class="carrossel-dentro">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="CASHBACK VANS! Compras acima de R$600 ganhe R$200 de cashback na sua segunda compra. Confira Aqui o Regulamento">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="FRETE GRÁTIS acima de R$449. Válido apenas para produtos com preço cheio. Consulte condições e localidades no carrinho">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="Sua primeira vez? Cadastre-se e aproveite o desconto de 10% OFF. WELCOME10OFF">
+          </div>
+        </div>
+        <button style="scale: 50%;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button style="scale: 50%;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <img style="width: 100%;" src="./images/KnuSkool-hero-01.webp" alt="">
   
-  
+<div class="padlateral">
+  <div>
+    <br><br><br>
+    <div style="color: black; font-size: 20px;" class="separator"><strong>COMPRE POR CATEGORIA</strong></div>
+</div>
+<br>
+  <div style="padding-left: 30px;" class=" row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+      <div style="width: 277px; height: 139px;" class="card">
+        <figure class="imgtxt">
+          <img style="width: 277px; height: 139px;" src="images/Old-Skool.webp" />  
+          <figcaption>OLD SKOOL</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 277px; height: 139px;" class="card">
+        <figure class="imgtxt">
+          <img style="width: 277px; height: 139px;" src="images/UltraRange.webp" />  
+          <figcaption>ULTRARANGE</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 277px; height: 139px;" class="card">
+        <figure class="imgtxt">
+          <img style="width: 277px; height: 139px;" src="images/Cal-ados.webp" />  
+          <figcaption>CALÇADOS</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 277px; height: 139px;" class="card">
+        <figure class="imgtxt">
+          <img style="width: 277px; height: 139px;" src="images/Roupas.webp" />  
+          <figcaption>ROUPAS</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padlateral">
+  <div>
+    <br><br><br>
+    <div style="color: black; font-size: 20px;" class="separator"><strong>LANÇAMENTOS</strong></div>
+</div>
+<br>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div style="width: 667px; height: 667px;" class="card">
+        <img width="667px" height="667px" src="images/Cashback-sec.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 667px; height: 667px;" class="card">
+        <img width="667px" height="667px" src="images/MTE-sec.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 667px; height: 667px;" class="card">
+        <img width="667px" height="667px" src="images/SeasonalAuthentic-sec.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div style="width: 667px; height: 667px;" class="card">
+        <img width="667px" height="667px" src="images/NeonSkate.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+  </div>    
+</div>
+
+<div class="padlateral">
+  <div>
+    <br><br>
+    <div style="color: black; font-size: 20px;" class="separator"><strong>ESCOLHA O SEU CLÁSSICO</strong></div>
+</div>
+<br>
+</div>
+
+<div class="padlateral">
+  <div>
+    <br><br>
+    <div style="color: black; font-size: 20px;" class="separator"><strong>RECOMENDAMOS PARA VOCÊ</strong></div>
+</div>
+<br>
+</div>
+
+<div class="padlateral">
+  <div>
+    <br><br>
+    <div style="color: black; font-size: 20px;" class="separator"><strong>NOSSAS ÚLTIMAS NOTÍCIAS</strong></div>
+</div>
+<br>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+  <footer style="font-size: 12px; color: white; padding-left: 125px; padding-right: 125px; background-color: black;" class="py-5">
+    <div class="row">
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>BAIXE O APP DA VANS</h5>
+          <p style="font-size: 12px;">Vem fazer parte da família e ter uma experiência off the wall!</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <button style="color: black; background-color: white;" class="btn btn-primary" type="button">App Store</button>
+            <button style="color: black; background-color: white;" class="btn btn-primary" type="button">Google Play</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>INSCREVA-SE NA NOSSA NEWSLETTER</h5>
+          <p style="font-size: 12px;">Receba novidades, lançamentos e promoções em seu e-mail.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Digite seu E-mail...">
+            <button class="btn btn-primary" type="button">ENVIAR</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row border-top">
+      <div class="col-6 col-md-2 mb-3">
+        <br><br>
+        <h6>CATEGORIAS</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Novidades</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Masculino</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Feminino</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Infantil</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Skateboarding</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Surf</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">BMX</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Clássicos</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <br><br>
+        <h6>AJUDA E SUPORTE</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Central de Atendimento</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Formas de Pagamento</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Formas de Entrega</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Meus Pedidos</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Trocas e Devoluções</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <br><br>
+        <h6>SOBRE NÓS</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Nossa História</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Isso é Off The Wall</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Sustentabilidade</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Política de Privacidade</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Termos de Uso</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Vendas Corporativas</a></li>
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Seja um Franqueado</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <br><br>
+        <h6>LOCALIZADOR DE LOJAS</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" style="color: white;" class="nav-link p-0">Encontre a loja mais próxima de você</a></li>
+          <button style="width: 120px; font-size: 12px;" class="btn btn-primary" type="button">BUSCAR LOJAS</button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row py-4 my-4">
+      <img width="103px" height="42px" src="/images/logo-white.svg" alt="">
+      <p style="font-size: 10px;">
+      © Vans, A VF Company. California Transparency in Supply Chain Act of 2010. Modern Slavery Statement <br>
+      ZZAB Comércio de Calçados Ltda. | Rua África do Sul, 2280. Padre Mathias, Cariacica/ES. <br>
+      CEP: 29157-900 | CNPJ: 07.900.208/0077-04
+      </p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
 </html>
